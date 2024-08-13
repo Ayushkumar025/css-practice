@@ -1,0 +1,65 @@
+/* universal*/
+*{
+    padding: 10px;
+    margin: 10px;
+    box-sizing: border-box;
+}
+
+/* tag name */
+p{
+    color: rgb(230, 135, 12);
+}
+a{
+    background-color: black;
+}
+/* class name */
+.class{
+    background-color: blue;
+}
+
+/* id_name */
+#style{
+    background-color: brown;
+}
+
+/* attribute selector */
+a[target="_blank"]{
+    background-color: yellow;
+}
+
+/* pseudo-class */
+a:hover{
+    background-color: pink;
+}
+
+/* pseudo element*/
+p::first-line{
+    color: red;
+}
+
+/* descendant */
+div p{
+    margin-top: 20px;
+    background-color: gray;
+}
+
+/* child */
+div>p{
+    border: 1px solid black;
+}
+
+/* adjacent sibling */
+p+div{
+    margin-right: 40px;
+}
+
+/* general sibling */
+h1 ~ h2{
+    background-color: blueviolet;
+}
+
+/* group */
+.class .sec{
+    margin: 20px 20px 20px 20px;
+    
+}
